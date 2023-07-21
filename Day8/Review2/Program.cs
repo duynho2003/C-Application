@@ -15,21 +15,21 @@ do
     choose = Console.ReadLine();
     switch (choose)
     {
-        case "Create New":
+        case "Create":
             {
                 Book book = new Book();
-                bm.CreateBook();
+                bm.createBook();
                 break;
             }
-        case "Find By isSale":
+        case "Find":
             {
-                bm.FindByIsSale();
+                bm.findByIsSale();
                 break;
             }
-        case "Find All":
+        case "FindAll":
             foreach (Book b in bm)
             {
-                b.BookInfo();   
+                b.bookInfo();   
             }
             break;
         default: break;

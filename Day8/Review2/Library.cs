@@ -8,6 +8,6 @@ namespace Review2
 {
     public abstract class Library
     {
-        public abstract void BookInfo();
+        public abstract void bookInfo();
     }
 }

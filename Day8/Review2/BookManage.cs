@@ -15,20 +15,20 @@ namespace Review2
 
         List<Book> books = new List<Book>();
 
-        public void CreateBook()
+        public void createBook()
         { 
             Book book = new Book();
             book.Input(); // gọi hàm Input() để nhập liệu
             books.Add(book);
         }
 
-        public void FindByIsSale()
+        public void findByIsSale()
         {
             foreach (Book book in books) 
             {
                 if (book.IsSale)
                 {
-                    book.BookInfo();
+                    book.bookInfo();
                 }
             }
         }

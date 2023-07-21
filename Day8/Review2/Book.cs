@@ -56,7 +56,7 @@ namespace Review2
                 isSale = value;
             }
         }
-        public override void BookInfo()
+        public override void bookInfo()
         {
             string sSale = isSale ? "Sale" : "None";
             Console.WriteLine($"Title: {title}, Price: {price}, Isale: {sSale}");
@@ -97,7 +97,6 @@ namespace Review2
                 Console.WriteLine("Input Isale (true/false): ");
                 IsSale = Convert.ToBoolean(Console.ReadLine());
             } while (IsSale != true || IsSale != false);
-
         }
     }
 }
