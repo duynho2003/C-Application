@@ -34,4 +34,4 @@ do
             break;
         default: break;
     }
-} while (choose.ToLower() == "exit");
+} while (choose.ToLower() != "quit");

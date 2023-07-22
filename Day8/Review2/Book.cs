@@ -92,11 +92,21 @@ namespace Review2
                 }
             }
 
-            do
+            while (true)
             {
                 Console.WriteLine("Input Isale (true/false): ");
-                IsSale = Convert.ToBoolean(Console.ReadLine());
-            } while (IsSale != true || IsSale != false);
+                string userInput = Console.ReadLine()!;
+
+                // Kiểm tra xem người dùng nhập "true" hay "false"
+                if (bool.TryParse(userInput, out bool isSaleValue))
+                {
+                    // Nếu người dùng nhập đúng kiểu bool (true hoặc false) thì gán giá trị cho thuộc tính IsSale và thoát khỏi vòng lặp
+                    IsSale = isSaleValue;
+                    break;
+                }
+                // Nếu người dùng nhập sai, hiển thị thông báo lỗi
+                Console.WriteLine("Invalid input! Please enter 'true' or 'false'.");
+            }
         }
     }
 }
