@@ -30,7 +30,17 @@ namespace Review3
         public float Mark
         {
             get { return mark; }
-            set { mark = value; }
+            set
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    mark = value;
+                }
+                else
+                {
+                    Console.WriteLine("Diem tu 1-10");
+                }
+            }
         }
 
         public void Input()

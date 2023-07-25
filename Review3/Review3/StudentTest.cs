@@ -33,7 +33,6 @@ do
             break;
             }
         default:
-            Console.WriteLine("Lua chon khong hop le!");
             break;
     }
 } while (choose.ToLower() != "quit");
