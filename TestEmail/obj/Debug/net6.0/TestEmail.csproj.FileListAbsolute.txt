@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\TestEmail\bin\Debug\net6.0\TestEmail.exe
+C:\Users\Admin\source\repos\TestEmail\bin\Debug\net6.0\TestEmail.deps.json
+C:\Users\Admin\source\repos\TestEmail\bin\Debug\net6.0\TestEmail.runtimeconfig.json
+C:\Users\Admin\source\repos\TestEmail\bin\Debug\net6.0\TestEmail.dll
+C:\Users\Admin\source\repos\TestEmail\bin\Debug\net6.0\TestEmail.pdb
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.AssemblyInfo.cs
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.dll
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\refint\TestEmail.dll
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.pdb
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\TestEmail.genruntimeconfig.cache
+C:\Users\Admin\source\repos\TestEmail\obj\Debug\net6.0\ref\TestEmail.dll
